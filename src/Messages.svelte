@@ -65,6 +65,5 @@
         />
       </svg>
     </button>
-    <div class="pl-[0.001px]" />
   </div>
 </div>
