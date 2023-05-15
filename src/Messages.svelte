@@ -54,9 +54,9 @@
       </div>
     {/each}
   </div>
-  <div class="flex space-x-1">
-    <input type="text" placeholder="Send message..." class="input input-bordered input-primary w-full max-w-xs align-bottom" id="send" />
-    <button class="btn btn-active btn-primary btn-xl px-4" on:click={send}>
+  <div class="flex space-x-[5px] pr-[8px] pl-[8px] py-2">
+    <input type="text" placeholder="Send message..." class="input input-bordered input-primary w-full align-bottom pr-2" id="send" />
+    <button class="btn btn-active btn-primary btn-xl PR-4" on:click={send}>
       <svg xmlns="http://www.w3.org/2000/svg" width="26.552" height="26.553" viewBox="0 0 26.553 26.552" class="fill-white">
         <path
           id="Send-Icon-93ync3"
@@ -65,5 +65,6 @@
         />
       </svg>
     </button>
+    <div class="pl-[0.001px]" />
   </div>
 </div>
