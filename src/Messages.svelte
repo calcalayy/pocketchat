@@ -42,7 +42,7 @@
   }
 </script>
 
-<div class="flex flex-col artboard phone-1 bg-zinc-800 drop-shadow-2xl rounded-xl space-x-1">
+<div class="flex flex-col artboard phone-1 bg-zinc-800 shadow-xl rounded-xl space-x-1">
   <div class="overflow-auto">
     {#each messages as message}
       <div class="p-4 rounded-xl">
