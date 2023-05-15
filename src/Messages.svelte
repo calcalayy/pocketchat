@@ -47,7 +47,7 @@
     {#each messages as message}
       <div class="p-4 rounded-xl">
         <div class="flex">
-          <img class="avatar" src={`https://avatars.dicebear.com/api/identicon/${message.expand?.user?.username}.svg`} alt="avatar" width="16px" height="16px" />
+          <img class="avatar" src={`https://api.dicebear.com/6.x/thumbs/svg?seed=${message.expand?.user?.username}&radius=15`} alt="avatar" width="24px" height="24px" />
           <h2 class="text-left font-bold py-1 pl-2">{message.expand?.user?.username}</h2>
         </div>
         <p class="text-left">{message.message}</p>
